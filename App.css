@@ -1,0 +1,37 @@
+* {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff6ee;
+  color: #FF6978;
+  font-family: BrokenHome;
+}
+
+@font-face {
+  font-family: BrokenHome;
+  src: url('Broken\ Home.ttf');
+}
+button {
+  background-color: #FF6978;
+  color: #fff6ee;
+  border-color: transparent;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+
+button:hover {
+  border: 3px solid #d55a66;
+  background-color: #fff6ee;
+  color: #FF6978;
+}
+
+button:not(:hover) {
+  border: none;
+  background-color: #FF6978;
+  color: #fff6ee;
+}
+
+button:active{
+  background-color: #f2b500;
+  color: #fff6ee;
+  transition: none;
+}
